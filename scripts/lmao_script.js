@@ -7,6 +7,7 @@ const spinButton = document.getElementById("spinButton");
 const scoreDisplay = document.getElementById("score");
 
 let score = 100;
+updateScore();
 
 spinButton.addEventListener("click", spin);
 
